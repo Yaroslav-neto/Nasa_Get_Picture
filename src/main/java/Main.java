@@ -52,7 +52,8 @@ public class Main {
                         if (pictureResponse.getStatusLine().getStatusCode() == 200) {
                             // Формируем название для файла и полный путь
                             String[] arr = nasaObject.getUrl().split("/");
-                            String fileName = arr[arr.length - 1]; // Название файла
+                            String fileName = "PictureToday.jpg"; // запись заданного имени файла
+//                            String fileName = arr[arr.length - 1]; // запись оригинального Название файла
                             String fullPath = directoryPath + File.separator + fileName; // Полный путь
 
                             HttpEntity entity = pictureResponse.getEntity();
