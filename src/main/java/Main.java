@@ -15,7 +15,7 @@ import java.io.IOException;
 public class Main {
     // Наша ссылка на API NASA
     public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=cuv7DqXQ0pUmqvC2nBjWMeBkyWxwxNQdug6yDzty";
-
+//    public static final String URI = "https://api.nasa.gov/planetary/apod?api_key=cuv7DqXQ0pUmqvC2nBjWMeBkyWxwxNQdug6yDzty&date=2025-03-09"; // вызов картинки за указанную дату
     // Объект для преобразования ответа в NasaObject
     public static final ObjectMapper mapper = new ObjectMapper();
 
